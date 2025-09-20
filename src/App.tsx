@@ -4,6 +4,11 @@ import { Counter } from "./Counter";
 import GitHubUserList from "./GitHubUserList";
 import ShowGitHubUser from "./ShowGitHubUser";
 
+export type WelcomeProps = {
+  name?: string;
+  age?: number;
+};
+
 export function App() {
   return (
     <div>
